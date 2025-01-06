@@ -1,3 +1,6 @@
 snap/
 .mozilla/
 *.sqlite-wal
+.bash_history
+.cache/
+.ssh/
