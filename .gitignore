@@ -1,6 +1,36 @@
-snap/
-.mozilla/
-*.sqlite-wal
-.bash_history
+
+# Ignorowanie plików systemowych
 .cache/
+.config/
+.gnupg/
+.local/
 .ssh/
+.bash_history
+.bash_logout
+.bashrc
+.profile
+.gitconfig
+.lesshst
+.pam_environment
+.snap/
+Pictures/
+
+# Ignorowanie katalogów Snap
+snap/
+
+# Ignorowanie plików wirtualnego środowiska Python
+venv/
+__pycache__/
+*.pyc
+
+# Ignorowanie plików edytorów
+.idea/
+.vscode/
+
+# Ignorowanie logów i plików tymczasowych
+*.log
+*.tmp
+*.swp
+
+# Ignorowanie plików Dockera, jeśli nie są potrzebne
+*.env
