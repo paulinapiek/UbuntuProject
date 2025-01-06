@@ -39,7 +39,7 @@ jobs:
 
     - name: Push Docker image to Docker Hub
       run: |
-        docker push user_name/flask-webapp:latest  # Zmień 'user_name' na swoją nazwę użytkownika Docker Hub
+        docker push ppaulinkaap@gmail.com/flask-webapp:latest 
 
     - name: Run basic tests
       run: |
