@@ -1,9 +1,0 @@
-{"timestamp":13165829,"category":"newtab","name":"opened","extra":{"newtab_visit_id":"{e80131a1-a92e-42f6-814a-83f82ef2fbdc}","source":"about:newtab","glean_timestamp":"1735910212475"}}
-{"timestamp":13166059,"category":"topsites","name":"impression","extra":{"is_sponsored":"false","glean_timestamp":"1735910212705","position":"3","newtab_visit_id":"{e80131a1-a92e-42f6-814a-83f82ef2fbdc}"}}
-{"timestamp":13166059,"category":"topsites","name":"impression","extra":{"glean_timestamp":"1735910212705","position":"4","is_sponsored":"false","newtab_visit_id":"{e80131a1-a92e-42f6-814a-83f82ef2fbdc}"}}
-{"timestamp":13166059,"category":"topsites","name":"impression","extra":{"newtab_visit_id":"{e80131a1-a92e-42f6-814a-83f82ef2fbdc}","is_sponsored":"false","position":"5","glean_timestamp":"1735910212705"}}
-{"timestamp":13166059,"category":"topsites","name":"impression","extra":{"newtab_visit_id":"{e80131a1-a92e-42f6-814a-83f82ef2fbdc}","glean_timestamp":"1735910212705","is_sponsored":"false","position":"6"}}
-{"timestamp":13166059,"category":"topsites","name":"impression","extra":{"position":"7","newtab_visit_id":"{e80131a1-a92e-42f6-814a-83f82ef2fbdc}","glean_timestamp":"1735910212705","is_sponsored":"false"}}
-{"timestamp":13166059,"category":"topsites","name":"impression","extra":{"newtab_visit_id":"{e80131a1-a92e-42f6-814a-83f82ef2fbdc}","position":"0","glean_timestamp":"1735910212706","tile_id":"74357","is_sponsored":"true","advertiser_name":"amazon"}}
-{"timestamp":13166060,"category":"topsites","name":"impression","extra":{"glean_timestamp":"1735910212706","is_sponsored":"true","position":"1","tile_id":"75127","advertiser_name":"allegro","newtab_visit_id":"{e80131a1-a92e-42f6-814a-83f82ef2fbdc}"}}
-{"timestamp":13166060,"category":"topsites","name":"impression","extra":{"tile_id":"75169","glean_timestamp":"1735910212706","advertiser_name":"temu","is_sponsored":"true","position":"2","newtab_visit_id":"{e80131a1-a92e-42f6-814a-83f82ef2fbdc}"}}

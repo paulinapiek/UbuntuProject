@@ -13,7 +13,7 @@
     <link rel="stylesheet" href="chrome://browser/content/contentSearchUI.css" />
     <link rel="stylesheet" href="chrome://activity-stream/content/css/activity-stream.css" />
   </head>
-  <!-- Cached: Fri, 03 Jan 2025 13:22:20 GMT -->
+  <!-- Cached: Mon, 06 Jan 2025 14:12:50 GMT -->
   <body class="activity-stream">
     <div id="header-asrouter-container" role="presentation"></div>
     <div id="root">
@@ -21,7 +21,7 @@
     [native code]
 }" data-preference="feeds.topsites" data-eventSource="TOP_SITES" data-l10n-id="newtab-custom-shortcuts-toggle" data-l10n-attrs="label, description"></moz-toggle><div><div class="more-info-top-wrapper"><div class="more-information"><select id="row-selector" class="selector" name="row-count" data-preference="topSitesRows" aria-labelledby="custom-shortcuts-title"><option selected="" value="1" data-l10n-id="newtab-custom-row-selector" data-l10n-args="{&quot;num&quot;: 1}"></option><option value="2" data-l10n-id="newtab-custom-row-selector" data-l10n-args="{&quot;num&quot;: 2}"></option><option value="3" data-l10n-id="newtab-custom-row-selector" data-l10n-args="{&quot;num&quot;: 3}"></option><option value="4" data-l10n-id="newtab-custom-row-selector" data-l10n-args="{&quot;num&quot;: 4}"></option></select><div class="check-wrapper" role="presentation"><input type="checkbox" id="sponsored-shortcuts" class="sponsored-checkbox" checked="" data-preference="showSponsoredTopSites" data-eventSource="SPONSORED_TOP_SITES"/><label class="sponsored" for="sponsored-shortcuts" data-l10n-id="newtab-custom-sponsored-sites"></label></div></div></div></div></div><div id="recent-section" class="section"><label class="switch"><moz-toggle id="highlights-toggle" onToggle="function() {
     [native code]
-}" data-preference="feeds.section.highlights" data-eventSource="HIGHLIGHTS" data-l10n-id="newtab-custom-recent-toggle" data-l10n-attrs="label, description"></moz-toggle></label></div><span class="divider" role="separator"></span><div><button id="settings-link" class="external-link" data-l10n-id="newtab-custom-settings"></button></div></div></div></span></menu><div class="weatherWrapper"></div><div class="outer-wrapper ds-outer-wrapper-breakpoint-override visible-logo"><main><div class="non-collapsible-section"><div class="search-wrapper"><div class="logo-and-wordmark"><div class="logo"></div><div class="wordmark"></div></div><div class="search-inner-wrapper"><button class="search-handoff-button" tabindex="-1"><div class="fake-textbox"></div><input type="search" class="fake-editable" tabindex="-1" aria-hidden="true"/><div class="fake-caret"></div></button></div></div></div><div class="body-wrapper on"><div class="discovery-stream ds-layout"><div class="ds-column ds-column-12"><div class="ds-column-grid"><div><div class="ds-top-sites"><section class="collapsible-section top-sites" data-section-id="topsites"><div class="section-top-bar"><h3 class="section-title-container " style="visibility:hidden"><span class="section-title"><span data-l10n-id="newtab-section-header-topsites"></span></span></h3></div><div><ul class="top-sites-list"><li class="top-site-outer placeholder  "><div class="top-site-inner"><a class="top-site-button" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper"><div class=""></div></div></div><div class="title"><span dir="auto"><br/></span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div class="topsite-impression-observer"></div></div></li><li class="top-site-outer placeholder  "><div class="top-site-inner"><a class="top-site-button" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper"><div class=""></div></div></div><div class="title"><span dir="auto"><br/></span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div class="topsite-impression-observer"></div></div></li><li class="top-site-outer placeholder  "><div class="top-site-inner"><a class="top-site-button" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper"><div class=""></div></div></div><div class="title"><span dir="auto"><br/></span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div class="topsite-impression-observer"></div></div></li><li class="top-site-outer"><div class="top-site-inner"><a class="top-site-button" href="http://127.0.0.1:5000/" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper letter-fallback" data-fallback="1" style="background-color:#FF7139"><div class=""></div></div></div><div class="title"><span dir="auto">127.0.0.1</span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div><button aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{&quot;title&quot;:&quot;127.0.0.1&quot;}" class="context-menu-button icon"></button></div><div class="topsite-impression-observer"></div></div></li><li class="top-site-outer"><div class="top-site-inner"><a class="top-site-button" href="https://www.youtube.com/" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper" data-fallback="Y"><div class="top-site-icon rich-icon" style="background-image:url(chrome://activity-stream/content/data/content/tippytop/images/youtube-com@2x.png)"></div></div></div><div class="title"><span dir="auto">YouTube</span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div><button aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{&quot;title&quot;:&quot;YouTube&quot;}" class="context-menu-button icon"></button></div><div class="topsite-impression-observer"></div></div></li><li class="top-site-outer"><div class="top-site-inner"><a class="top-site-button" href="https://www.facebook.com/" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper" data-fallback="F"><div class="top-site-icon rich-icon" style="background-image:url(chrome://activity-stream/content/data/content/tippytop/images/facebook-com@2x.png)"></div></div></div><div class="title"><span dir="auto">Facebook</span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div><button aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{&quot;title&quot;:&quot;Facebook&quot;}" class="context-menu-button icon"></button></div><div class="topsite-impression-observer"></div></div></li><li class="top-site-outer hide-for-narrow"><div class="top-site-inner"><a class="top-site-button" href="https://www.wikipedia.org/" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper" data-fallback="W"><div class="top-site-icon rich-icon" style="background-image:url(chrome://activity-stream/content/data/content/tippytop/images/wikipedia-org@2x.png)"></div></div></div><div class="title"><span dir="auto">Wikipedia</span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div><button aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{&quot;title&quot;:&quot;Wikipedia&quot;}" class="context-menu-button icon"></button></div><div class="topsite-impression-observer"></div></div></li><li class="top-site-outer hide-for-narrow"><div class="top-site-inner"><a class="top-site-button" href="https://www.olx.pl/" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper" data-fallback="o"><div class="top-site-icon rich-icon" style="background-image:url(chrome://activity-stream/content/data/content/tippytop/images/olx-pl@2x.png)"></div></div></div><div class="title"><span dir="auto">olx</span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div><button aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{&quot;title&quot;:&quot;olx&quot;}" class="context-menu-button icon"></button></div><div class="topsite-impression-observer"></div></div></li></ul><div class="edit-topsites-wrapper"></div></div></section></div></div></div></div><style data-styles="[[null]]"></style></div><div class="discovery-stream ds-layout"><div class="ds-column ds-column-12"><div class="ds-column-grid"><div></div></div></div><style data-styles="[[null]]"></style></div></div></main><aside></aside></div></div>
+}" data-preference="feeds.section.highlights" data-eventSource="HIGHLIGHTS" data-l10n-id="newtab-custom-recent-toggle" data-l10n-attrs="label, description"></moz-toggle></label></div><span class="divider" role="separator"></span><div><button id="settings-link" class="external-link" data-l10n-id="newtab-custom-settings"></button></div></div></div></span></menu><div class="weatherWrapper"></div><div class="outer-wrapper ds-outer-wrapper-breakpoint-override visible-logo"><main><div class="non-collapsible-section"><div class="search-wrapper"><div class="logo-and-wordmark"><div class="logo"></div><div class="wordmark"></div></div><div class="search-inner-wrapper"><button class="search-handoff-button" tabindex="-1"><div class="fake-textbox"></div><input type="search" class="fake-editable" tabindex="-1" aria-hidden="true"/><div class="fake-caret"></div></button></div></div></div><div class="body-wrapper on"><div class="discovery-stream ds-layout"><div class="ds-column ds-column-12"><div class="ds-column-grid"><div><div class="ds-top-sites"><section class="collapsible-section top-sites" data-section-id="topsites"><div class="section-top-bar"><h3 class="section-title-container " style="visibility:hidden"><span class="section-title"><span data-l10n-id="newtab-section-header-topsites"></span></span></h3></div><div><ul class="top-sites-list"><li class="top-site-outer placeholder  "><div class="top-site-inner"><a class="top-site-button" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper"><div class=""></div></div></div><div class="title"><span dir="auto"><br/></span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div class="topsite-impression-observer"></div></div></li><li class="top-site-outer placeholder  "><div class="top-site-inner"><a class="top-site-button" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper"><div class=""></div></div></div><div class="title"><span dir="auto"><br/></span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div class="topsite-impression-observer"></div></div></li><li class="top-site-outer placeholder  "><div class="top-site-inner"><a class="top-site-button" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper"><div class=""></div></div></div><div class="title"><span dir="auto"><br/></span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div class="topsite-impression-observer"></div></div></li><li class="top-site-outer"><div class="top-site-inner"><a class="top-site-button" href="http://127.0.0.1:5000/" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper" data-fallback="1"><div></div><div class="top-site-icon default-icon" data-fallback="" style="background-image:url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGNSURBVDjLpVM9SwNBEJ297J1FQBtzjQj2dgppYiP4A1KZRoiFrYWt9rHyH6QUPBDTCimtLNSAnSB26YKg4EdMdsd5611cjwsIWRhmZ3f2zZuPVcxMsyx9fPF0NRfS2vM7lx2WtcQiJHvDRvZMluXMGNHstJH7+Wj09jHkOy1+tc3VxeC+P6TXT1sYZX2hT7cvS6lepv3zHUp2T8vXNw81dXT2yGwEGeERSbSVCC5qysYa+3vm9sJGmLFojceXJ9uklCqUIAic5G3IytahAAhqqVSiwWDwx6nogW9XKhWphaGAvC50Oh1qtVr/7oAdCwBQwjB00mg0qFqtUr1ed3YURZM7X7TWTqM2Gm3CASRJEur1etTtdp1DnrafFtJGMbVNGSBas9l0DrAzR6x8DdwASUB0RqNNGS2/gH7EInvCwMhkZTnlnX0GsP09tJER0BgMoAEAa1rETDIQvBkjBZeHMIjjuNB5Ggg0/oZWPGrHGwd7Fp9F2CAlgHKqf0aYXb6Y2mzE8d/IfrXVrN/5G81p6oa2mIEUAAAAAElFTkSuQmCC)"></div></div></div><div class="title"><span dir="auto">127.0.0.1</span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div><button aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{&quot;title&quot;:&quot;127.0.0.1&quot;}" class="context-menu-button icon"></button></div><div class="topsite-impression-observer"></div></div></li><li class="top-site-outer"><div class="top-site-inner"><a class="top-site-button" href="https://www.youtube.com/" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper" data-fallback="Y"><div class="top-site-icon rich-icon" style="background-image:url(chrome://activity-stream/content/data/content/tippytop/images/youtube-com@2x.png)"></div></div></div><div class="title"><span dir="auto">YouTube</span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div><button aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{&quot;title&quot;:&quot;YouTube&quot;}" class="context-menu-button icon"></button></div><div class="topsite-impression-observer"></div></div></li><li class="top-site-outer"><div class="top-site-inner"><a class="top-site-button" href="https://www.facebook.com/" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper" data-fallback="F"><div class="top-site-icon rich-icon" style="background-image:url(chrome://activity-stream/content/data/content/tippytop/images/facebook-com@2x.png)"></div></div></div><div class="title"><span dir="auto">Facebook</span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div><button aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{&quot;title&quot;:&quot;Facebook&quot;}" class="context-menu-button icon"></button></div><div class="topsite-impression-observer"></div></div></li><li class="top-site-outer hide-for-narrow"><div class="top-site-inner"><a class="top-site-button" href="https://www.wikipedia.org/" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper" data-fallback="W"><div class="top-site-icon rich-icon" style="background-image:url(chrome://activity-stream/content/data/content/tippytop/images/wikipedia-org@2x.png)"></div></div></div><div class="title"><span dir="auto">Wikipedia</span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div><button aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{&quot;title&quot;:&quot;Wikipedia&quot;}" class="context-menu-button icon"></button></div><div class="topsite-impression-observer"></div></div></li><li class="top-site-outer hide-for-narrow"><div class="top-site-inner"><a class="top-site-button" href="https://www.olx.pl/" tabindex="0" draggable="true" data-is-sponsored-link="false"><div class="tile" aria-hidden="true"><div class="icon-wrapper" data-fallback="o"><div class="top-site-icon rich-icon" style="background-image:url(chrome://activity-stream/content/data/content/tippytop/images/olx-pl@2x.png)"></div></div></div><div class="title"><span dir="auto">olx</span><span class="sponsored-label" data-l10n-id="newtab-topsite-sponsored"></span></div></a><div><button aria-haspopup="true" data-l10n-id="newtab-menu-content-tooltip" data-l10n-args="{&quot;title&quot;:&quot;olx&quot;}" class="context-menu-button icon"></button></div><div class="topsite-impression-observer"></div></div></li></ul><div class="edit-topsites-wrapper"></div></div></section></div></div></div></div><style data-styles="[[null]]"></style></div><div class="discovery-stream ds-layout"><div class="ds-column ds-column-12"><div class="ds-column-grid"><div></div></div></div><style data-styles="[[null]]"></style></div></div></main><aside></aside></div></div>
     </div>
     <div id="footer-asrouter-container" role="presentation"></div>
     <script src="about:home?jscache"></script>
@@ -41,8 +41,8 @@ window.__STARTUP_STATE__ = {
 				"label": "Amazon",
 				"show_sponsored_label": true,
 				"sponsored_position": 1,
-				"sponsored_click_url": "https://bridge.sfo1.ap01.net/ctp?version=1.0.0&encp=HF3vIpkX7RcdjpkX4Zfd1Cba1CLafZHk7ncqjnaz7nIZgGeYJm2uHF3wJnjvJnDufpLUxmIVfBIkxZdWxnzq5FcqIF_RiF_w5Cba5R4nJZlnJr7Rirxzj%3DwTIG4W7n7vI%3D3wxweNxncuxZdQ3d7nHZ7aIwvDDCE1iwwPFwjiiqdlJ%3Dv1iqI%2FCRvo4lzD2nd4sqcrCq3QfkdPFC71EcvoCRv3jdvu3Gji3l_oFE3TJl_DFnuIiw7vFFvTJDzDDBIuxr2zj%3DwTIG4W7R7kx%3DwqgG4nGZIw4%3D7q4nDafZfaHCenHn2_HZDYfCNNIn8kI%3D3qfF8aGmEQIQINHCq_4nHm1%3DHW4%3D4q1%3Dlk1FfmICla4CwOfpHm7ReOgClWftaW7RedxZ7vgClWfBIWjGfXiCkXfplnx9EWiCkXfQL_fBIkxrfXgCfX1p8d4Cxr1tIkxredHQkZfCLY4CDr4ZxnHG3ZiF2zfZlafQDd4Zx_7nckxmWzfOIdj%3Dqz4BIdImqzfOIZxR2zfC2nJG4kxczvI9Lz5ClniF_miF2z5Clnj9NvIpkW7nuriF3agCbnxR3YHZkW7R7kx%3DTzftIRjpkW7nuriF2zfZDa1pHmfQLa7RcdIG7_iF2zfCfZ4CDkfC2WfQl_4pDZ4p2W7ndZj92zftIYj%3D7TgFINJ94w7Rekj%3DwqgCbnI9eQiF2zfQbWfCfZ1CH_fOINxpfzCRvcsDdD3Cc4ElwaCc3cjldvfp44ElwaCE3EsldS3G3fDZekCEfWslXCfp4HsqkZCd3cscNPIYIQj9wvIpk_fBIQxnEvIpkXfp8a4tIWJ%3DwqgClWfpxnI94WHnwqgClWfCqnI94WHF3miF2zfCbW1BIqxreNjF3miF2z1plZftIqxrevJmwqgClk4Z8nHF3ZJ%3DwqgClZfZDd4plkfpfa4Z8YfQba4BIZJ%3DzkJREugClnIF_EDqWzClNefmIFE%3DLaEZIUxDuFC94wCwcksQxaBl7vDDEZJkHWBQNvHwldjwjuxp4H7C7%3D3ENoEF_pjD4PCwNqBF481%3DdH3cqZ193rjQDZCd74EkcIDrbrfww8iwLYjkEviFkrJrNH4lzpstDY2RLX3GeUBcvY3nWWDwIdD%3DdDBpe6BGvf7C7%3D7C7t1cjQEnldEDEPxkN14cw67C7tiqc%3DBmcOfEEHJn7HHZc2JGNcIQN1F9v4BZeo7C7t4FDksndCIkv7IGxwfk2wfk2nxR3VxZkS1Y%2FM6QTS7nwvHZkufCTufCTufCTufCTufBIQxpkW5QbafpbT4Z2Z4CxTfQ8W1pHr5pld4Q8Z1CbX5pbTfC8r1ClTfCbX4plTJnErj%3DcO5tWTj%3DwTIG4W5%3D7NHmuniFXTGm4VJn3dHmwmI2yy&ctag=pd_sl_e49663efc09c61a79890f30047736656d740fa0d3da9e56db4bb9f94",
-				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkXfZfd4C2X4pbYfCqk4Cfk4pbnj9wWIBdvIpkY7n4YIFckiGIw5FwqgClWfQLk7ReTHF4wJFEUjtdvIpkXfpbr7ncq5G4wJ%3DEQj%3DwVJOdvIpkXfZfd4C2X4pbZ1pxYfQ8W1pDnxmXVjtdUjFdOIG8zf2yy",
+				"sponsored_click_url": "https://bridge.sfo1.ap01.net/ctp?version=1.0.0&encp=HF3vIpkX7RcdjpkX4ZfmfCH_fpqW4Cfk7ncqjnaz7nIZgGeYJm2uHF3wJnjvJnDufp2UxmIVfBIkxZdWxnzq5FcqIF_RiF_w5Cbk5R4nJZlnJr7Rirxzj%3DwTIG4W7n7vI%3D3wxweNxncuxZdQ3d7nHZ7aIwvDDCE1iwwPFwjiiqdlJ%3Dv1iqI%2FCRvo4lzD2nd4sqcrCq3QfkdPFC71EcvoCRv3jdvu3Gji3l_oFE3TJl_DFnuIiw7vFFvTJDzDDBIuxr2zj%3DwTIG4W7R7kx%3DwqgG4nGmcnHZEQ1pcnHn8dfQlkfZfr1FlkfC8Z4pNw1p8kHQcqGm2mfQ2k4QHa4QqXfZfd1pIQIFfr4ZxkHn8kHQIQ4QDr7ReOgClWftaW7RedxZ7vgClWfBIWjGfXiCkXfplnx9EWiCkXfQL_fBIkxrfXgCfX1p8d4Cxr1tIkxredHQkZfCLY4CDr4ZxnHG3ZiF2zfZlafQDd4Zx_7nckxmWzfOIdj%3Dqz4Zxr4ZHnjFjvgC8nxr7kgClk7ndZj9eKiF3agBkX7nwUjnwqgBkX7R3aiF2zftIojmwqspkW7R7kxnfzftIYj9eogCbnIr2zftIojmwqgCfd1pLm4Q8a1tIXjFEYsFwqgClZ4pHk4Cba4ZLW4pbrfCqZ4OIuxr3kgCbnxR3OJpdnHFXZIBIWj93vIpkW7n3WHmwqgC8WfplZfZqm1C8nHGbZgD_P3Gw4ElDXCE37slXD3G34iCbZCE37sldDEGN4iqEkCcfWjldCf9NfDZbZF9v4fkzD3GNHsnxnHr3_iF2z1ClnHr7wiF2zfCbY1p2nx%3DXvIpkXfpbr7n3Zx%3D7vIpkXfpl_7n3Zx%3DcqjnwqgClWfpqnI94WHGEqjnwqgCLXfZbnI94WiFzvIpkX4pxY7ncqxmXvIpkXfZ2m4pDW1pLkfC8YfZLkfp8nxmXVj%3D_dJCkX7nEUEE7fgDX82C4nEw3%2F1cxmJRc5EqXZID_3j9%2Fr1lNtiEccxmz%3Dfl%2FaiF734GIGJGbZFtDY3qEHidEU2rEpsq_HIlwQBpNuFl3IfZNkjrHdfkzBCEjeFE4W4Z7IB%3DvHfRjciFwu4mzaFp3g2rLwfq7afDEWJqNixqITfc7FjEeuElLWBqwPCtDY3ODY2QNGHdIN4EEcsR48CQ3IBODY2nve3quNHQcEF%3D_OF%3DfXD%3Dda3FHaCwNPCDTWiYDY2QEw49vuDmj6BFEr7C4l7C4l7R7kJrfz6QTS1Y%2FM6OIviFfz5ClM5ClM5ClM5ClM5ClnHrbzftaW1pbW5pxkfZDr5p8YfpLm4YWX4CHYfZqWfBWW5plY4ZqX5plWfC2X5%3D_wjr3NHOWT593vJ%3DEZxtXOHF4oInwTJczQJm_qjF4vjnDy&ctag=pd_sl_e49663efc09c61a79890f30047736656d740fa0d3da9e56db4bb9f94",
+				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkXfZ2m4pDW1pxafp2W4Zl%2BfZHnj9wWIBdvIpkY7n4YIFckiGIw5FwqgClWfQLk7ReTHF4wJFEUjtdvIpkXfpbr7ncq5G4wJ%3DEQj%3DwVJOdvIpkXfZ2m4pDW1pLkfC8YfZLkfp8nxmXVjtdUjFdOIG8zf2yy",
 				"sponsored_tile_id": 74357,
 				"partner": "amp",
 				"favicon": "https://tiles-cdn.prod.ads.prod.webservices.mozgcp.net/CAP5k4gWqcBGwir7bEEmBWveLMtvldFu-y_kyO3txFA=.9991.jpg",
@@ -51,14 +51,14 @@ window.__STARTUP_STATE__ = {
 			},
 			{
 				"isDefault": true,
-				"url": "https://allegro.pl/affiliate?redirect_url=https://allegro.pl?utm_medium%3Dafiliacja%26utm_source%3Dctr_b%26utm_campaign%3D0faa3fe0-4f6c-45fb-8df0-215637e85526&admarketplaceevent=133554140219453440&mfadid=adm",
+				"url": "https://allegro.pl/affiliate?redirect_url=https://allegro.pl?utm_medium%3Dafiliacja%26utm_source%3Dctr_b%26utm_campaign%3D0faa3fe0-4f6c-45fb-8df0-215637e85526&admarketplaceevent=134645087804071936&mfadid=adm",
 				"hostname": "allegro",
 				"sendAttributionRequest": false,
 				"label": "allegro",
 				"show_sponsored_label": true,
 				"sponsored_position": 2,
-				"sponsored_click_url": "https://bridge.sfo1.admarketplace.net/ctp?version=1.0.0&encp=HF3vIpkY7RcdjpkX4Zfd1Cba1CLafZHk7ncqjnaz7nIZgGeYJm2uHF3wJnjvJnDufpLUxmIVfBIkxZdWxnzq5FcqIF_RiF_w5Cba5R4nJZlnJr7Rirxzj%3DwTIG4W7n7vI%3D3wxweNxncuxZd4EldPCw3EfldDDGj4iqDdCq3Esq_lDGxnJG4kgG3vJ%3DEZxtIYj9evIpdZIwAmIC3OIpIw1pfZ1%3DlWIn7q1FfdfQlaHFIO4%3D3qIpcO1czwHmHmHFl_1CIn4QNnfp3QIpNN4pwQ4nDX1pD_HQbm4OIWHQkXfpbUftIWjGfYiCkXfplnx9EZfFqzfCbX7Redx%3DqzfC8a1Clnj94ZfCkZfCLY4CDr4ZLnj94WjF8zfZlafQDd4Zxr7nckxmwqgCfX1p8d4Cxr1BINj94TgC8njG3vgCDnjFjvgC8nxr7kgClk7ndZj9eKiF3agBkX7nwUjnwqgBkX7R3aiF2zftIojmwqspkW7R7kxnfzftIYj9eogCbnIr2zftIojmwqgCfd1px_4Qfk4YIXjFEYsFwqgClZfZDd4plkfp8X1C2dfZ2kftIuxr3kgCbnxR3OJpdnHFXZIBIWj93vIpkW7n3WHmwqgC8WfplZfZqm1C8nHr3_iF2z1ClnHr7wiF2z1CLk1tIWJ%3DwqgClWfpxnI94WHnwqgClk4C2nI94WHF3miF2zfC2XfBIqxreNjF3miF2z4ZL_fBIqxrevJmwqgClZfQDnHF3ZJ%3DwqgClZfZDd4plkfpfa4Z8YfCqYfYIZJ%3DzkJREugC8nIF_EDqWzClNefmIFE%3DLaEZ2ZfR4pjmXZHQNNCElW3Ee2Ik7S2wwFspcZjmv4xlI_JkLkjcwaICwWFGbZ7C7%3DjlN2FF8riDXeBk7F7C7tFBDY2RN82DwTEnN51%3Dj7J9Eg3DTXjnIQiGEE19qZiRvVsQ8dBZEVEmA_Jw7C3dfwfq8aimHd3k7PDnEE4Fqdfq723%3D7_xQwHfFcYjFvYiDIniEIR2qEHIdxkJEcrjw7%3D2kXqsccmEFEYfkvSHCIQxRjtJ94cFFcC3DzcDw4GEDHmjD434QNEspI_2wwWBFwUBBDY3qkwfqIpid4aFpq_7C7txkz9F%3DHwfq7QiF_SBlz_3cc33qLwfq7HB%3DIPBZIY2D3%3DEmviJtDY2QcYipqwfqI63w3RHQIEfFNeHmX3D9E33ljl2ElZ3rjPsnXgIQ4%2FIkfZ1cjNEnIR7C4l7R7kJrfz6QTS1Y%2FM6OIviFfz5ClM5ClM5ClM5ClM5ClnHrbzftaX4ZbW5pxdfC8r5p8YfpxkfYWX4CHYfZHd4YWW5plY4ZqX5plWfC2X5%3D_wjr3NHOWT593vJ%3DEZxtXOHF4oInwTJczQJm_qjF4vjnDy&ctag=133554140219453440",
-				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkXfZfd4C2X4pbYfCqk4Cfk4pbnj9wWIBdvIpkY7n4YIFckiGIw5FwqgCqa4pLnx%3DXNHmEuIF%2Bk5FwqgClWfpxnHF2uxmETIF4kiFzU5FwqgClZfZDd4plkfpfa4Z8YfCqYfYIZJ%3Dzk5F%2BdJF7wxQkY",
+				"sponsored_click_url": "https://bridge.sfo1.admarketplace.net/ctp?version=1.0.0&encp=HF3vIpkY7RcdjpkX4ZfmfCH_fpqW4Cfk7ncqjnaz7nIZgGeYJm2uHF3wJnjvJnDufp2UxmIVfBIkxZdWxnzq5FcqIF_RiF_w5Cbk5R4nJZlnJr7Rirxzj%3DwTIG4W7n7vI%3D3wxweNxncuxZd4ElkWCnv3fDdlIZ4g3llWCD3QslzDCC8nJG4kgG3vJ%3DEZxtIYj9evIpdZIwzNInfdHZLXIn7O4C8X4pfZ4ZwN4plYfZ2aICLY4%3D8XIczq4Q8k4pHm1pH_fCfZ4CLmHmEQ4Zxr4%3D7O4%3D8mHZHd4YIWHQkXfpbUftIWjGfYiCkXfplnx9EZfFqzfCbX7Redx%3DqzfC8a1Clnj94ZfCkZfCLY4CDr4ZLnj94WjF8zfZlafQDd4Zxr7nckxmwqgCfX1p8d4Cxr1BINj94TgC8njG3vgCxr4Zxm7RERiCkY7R4YjpkX4tIuxr3WGmwqspkufBIvJRIvIpkufBIks%3DwqgCbnirjvI9LzftIYj97QgCbnxR3WiZkW7njkgCbnirjvIpkZ4CLr1CHZ4pxnxGEwxRwvIpkXfZ2m4pDW1pxafp2W4Zl_fZHnJG4kjpkW7R7kHnWzIncTxmDnx93kiF2zftIqx%3D4vIpkYfpbXfZf_4QqY7n4ksFwqgCqX7n4YIFwqgCqa4pLnx%3DXvIpkXfpbr7n3Zx%3D7vIpkX4pDk7n3Zx%3DcqjnwqgClkfClnI94WHGEqjnwqgCxa1ClnI94WiFzvIpkXfZ8d7ncqxmXvIpkXfZ2m4pDW1pLkfC8YfZLY4p2nxmXVj%3D_dJCkY7nEUEE7fgDX82C4nEw3%2F1cxkfZ7Z2rjTxm8aHDd3flE2D%3Djtiq7IERLXxrjSCGe%3DsFz8493Is%3DD_xcwWfYDY3R38DcwO4mwf2DutEODY2wqwfq7aBlc7JcI%2FBZNRBFXdCkE5fGInHmwdECN_fmvPJr%2FY4DTdJdjV1F_BDkjC7C7t1%3Dun4Djtsw7wECEv4C7tDl3OsG8_FpcNxRESxnw%3DInwFIk7cF%3DjG4%3Dd3jrIB3q4fI9N3jwEwxQ46inlmHr7r2nXZ3EwNDkEg3E7CEdE%3D4REpDCHaEGLmsD7IxlwvJqqwfqI47C7%3D2muCscL_1BDY2R4g3dNn7C7tHmwUiqNgsD3BIFXZfC4FBkqwfq7V7C7%3DCqE%2FxG7HFGNDjmfd3Z7QER3DIkwqilcQJcc2jEcl3k3eDC49jrvPJlznfmNR2ZfaEmcFInxwfk2nxR3VxZkS1Y%2FM6QTS7nwvHZkufCTufCTufCTufCTufBIQxpkW5Q8kfpbT4ZDXfQxTfQ8W4Z2Z5pld4Q8Z4QDr5pbTfC8r1ClTfCbX4plTJnErj%3DcO5tWTj%3DwTIG4W5%3D7NHmuniFXTGm4VJn3dHmwmI2yy&ctag=134645087804071936",
+				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkXfZ2m4pDW1pxafp2W4Zl%2BfZHnj9wWIBdvIpkY7n4YIFckiGIw5FwqgCqa4pLnx%3DXNHmEuIF%2Bk5FwqgClWfpxnHF2uxmETIF4kiFzU5FwqgClZ4pHk4Cba1p2XfQ8Z1p8k4tIZJ%3Dzk5F%2BdJF7wxQkY",
 				"sponsored_tile_id": 75127,
 				"partner": "amp",
 				"favicon": "https://tiles-cdn.prod.ads.prod.webservices.mozgcp.net/dAvkh75Mk2wMWZADaHLBGayG740mLADZKm_4mPBuRAw=.2688.jpg",
@@ -67,14 +67,14 @@ window.__STARTUP_STATE__ = {
 			},
 			{
 				"isDefault": true,
-				"url": "https://temuaffiliateprogram.pxf.io/Jz52V7?subId1=133554140219453440&mfadid=adm",
+				"url": "https://temuaffiliateprogram.pxf.io/Jz52V7?subId1=134645087804071936&mfadid=adm",
 				"hostname": "temuaffiliateprogram.pxf",
 				"sendAttributionRequest": false,
 				"label": "Temu",
 				"show_sponsored_label": true,
 				"sponsored_position": 3,
-				"sponsored_click_url": "https://bridge.sfo1.admarketplace.net/ctp?version=1.0.0&encp=HF3vIpkZ7RcdjpkX4Zfd1Cba1CLafZHk7ncqjnaz7nIZgGeYJm2uHF3wJnjvJnDufpLUxmIVfBIkxZdWxnzq5FcqIF_RiF_w5Cba5R4nJZlnJr7Rirxzj%3DwTIG4W7n7vI%3D3wxweNxncuxZd4EldPCw3EfldDDGj4iqDdCq3Esq_lDGxnJG4kgG3vJ%3DEZxtIYj9evIpdZIwAmIC3OIpIw1pfZ1%3DlWIn7q1FfdfQlaHFIO4%3D3qIpcO1czwHmHmHFl_1CIn4QNnfp3QIpNN4pwQ4nDX1pD_HQbm4OIWHQkXfpbUftIWjGfYiCkXfplnx9EZfFqzfCbX7Redx%3DqzfC8a1Clnj94ZfCkZfCLY4CDr4ZLnj94WjF8zfZlafQDd4Zxr7nckxmwqgCfX1p8d4Cxr1BINj94TgC8njG3vgCDnjFjvgC8nxr7kgClk7ndZj9eKiF3agBkX7nwUjnwqgBkX7R3aiF2zftIojmwqspkW7R7kxnfzftIYj9eogCbnIr2zftIojmwqgCfd1pLrfQfZ1tIXjFEYsFwqgClZfZDd4plkfp8X1C2dfZ2kftIuxr3kgCbnxR3OJpdnHFXZIBIWj93vIpkW7n3WHmwqgC8WfplZfZqm1C8nHr3_iF2z1ClnHr7wiF2zfCbkfCDnx%3DXvIpkXfpbr7n3Zx%3D7vIpkX4pxW7n3Zx%3DcqjnwqgClkfZlnI94WHGEqjnwqgCLY4QfnI94WiFzvIpkXfZ2Z7ncqxmXvIpkXfZfd4C2X4pbZ1pxYfQ8XfZHnxmXVj%3D_dJCkZ7nEUEE7fgDX82C4nEw3%2F1cxmFCEdHmuk7C7ti9qd4%3DdtCcxXHk343mvS3lEE2Fc_jR7pEDvvIZ4YJCe_fkdvDnIOIdDYDrEmJwjWCGj7Dqjl192wfq7r2GNFJZ7iIR3N4%3DInsE7E4lxwfq7TCww3BlvE3pjo2GNRjkE1s9441pEDJQqkFDck7C7%3D3ndTFp2nxR3VxZkS1Y%2FM6QTS7nwvHZkufCTufCTufCTufCTufBIQxpkW5Q8r4QbT4ZDX4QqTfQ8W1CxX5pld4Q8kfpqd5pbTfC8r1ClTfCbX4plTJnErj%3DcO5tWTj%3DwTIG4W5%3D7NHmuniFXTGm4VJn3dHmwmI2yy&ctag=133554140219453440",
-				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkXfZfd4C2X4pbYfCqk4Cfk4pbnj9wWIBdvIpkY7n4YIFckiGIw5FwqgClW4pld7ReTHF4wJFEUjtdvIpkXfpbr7ncq5G4wJ%3DEQj%3DwVJOdvIpkXfZfd4C2X4pbZ1pxYfQ8XfZHnxmXVjtdUjFdOIG8zfWyy",
+				"sponsored_click_url": "https://bridge.sfo1.admarketplace.net/ctp?version=1.0.0&encp=HF3vIpkZ7RcdjpkX4ZfmfCH_fpqW4Cfk7ncqjnaz7nIZgGeYJm2uHF3wJnjvJnDufp2UxmIVfBIkxZdWxnzq5FcqIF_RiF_w5Cbk5R4nJZlnJr7Rirxzj%3DwTIG4W7n7vI%3D3wxweNxncuxZd4ElkWCnv3fDdlIZ4g3llWCD3QslzDCC8nJG4kgG3vJ%3DEZxtIYj9evIpdZIwzNInfdHZLXIn7O4C8X4pfZ4ZwN4plYfZ2aICLY4%3D8XIczq4Q8k4pHm1pH_fCfZ4CLmHmEQ4Zxr4%3D7O4%3D8mHZHd4YIWHQkXfpbUftIWjGfYiCkXfplnx9EZfFqzfCbX7Redx%3DqzfC8a1Clnj94ZfCkZfCLY4CDr4ZLnj94WjF8zfZlafQDd4Zxr7nckxmwqgCfX1p8d4Cxr1BINj94TgC8njG3vgCxr4Zxm7RERiCkY7R4YjpkX4tIuxr3WGmwqspkufBIvJRIvIpkufBIks%3DwqgCbnirjvI9LzftIYj97QgCbnxR3WiZkW7njkgCbnirjvIpkZ4CLa4Z8ZfZLnxGEwxRwvIpkXfZ2m4pDW1pxafp2W4Zl_fZHnJG4kjpkW7R7kHnWzIncTxmDnx93kiF2zftIqx%3D4vIpkYfpbXfZf_4QqY7n4ksFwqgCqX7n4YIFwqgClW4pld7ReTiF2zfCbW4YIqxreOiF2zfC2rftIqxreNI9IvIpkX4pfX7n3Zx%3DcdI9IvIpkafQHZ7n3Zx%3DwViF2zfCfkfYINI94TiF2zfCfk4Q2dfpLa4plYfQfa4pDZ7R4TJr3UjFkzfYIwJwEBCpdfBllZIwIDipNG4wqdjF4ojtDY2nN_4C3u2qXGfF4lCDjSiq3cEDcNsGIY2dE6iFxZxnkWsC44iE7nHnjEfw4djn_gfkjQI%3DkX2G4vC9vBBFcXfC74ECN8Cd7kJqIOEC3pBcw3BlvE3pjo2GNRjkE1s9441pEDJQqkFDck7C7%3D3ndTFp2nxR3VxZkS1Y%2FM6QTS7nwvHZkufCTufCTufCTufCTufBIQxpkW5QlYfQbT4ZDX4QqTfQ8W1CxX5pld4Q8kfpqd5pbTfC8r1ClTfCbX4plTJnErj%3DcO5tWTj%3DwTIG4W5%3D7NHmuniFXTGm4VJn3dHmwmI2yy&ctag=134645087804071936",
+				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkXfZ2m4pDW1pxafp2W4Zl%2BfZHnj9wWIBdvIpkY7n4YIFckiGIw5FwqgClW4pld7ReTHF4wJFEUjtdvIpkXfpbr7ncq5G4wJ%3DEQj%3DwVJOdvIpkXfZ2m4pDW1pLkfC8YfZLk4CfnxmXVjtdUjFdOIG8zfWyy",
 				"sponsored_tile_id": 75169,
 				"partner": "amp",
 				"favicon": "https://tiles-cdn.prod.ads.prod.webservices.mozgcp.net/Pe5gM9R0s-OCS2DfKecIG72P_fwfB8I2BSbC1obg0oM=.5716.jpg",
@@ -83,15 +83,23 @@ window.__STARTUP_STATE__ = {
 			},
 			{
 				"bookmarkGuid": null,
-				"frecency": 2000,
+				"frecency": 5280,
 				"guid": "CW_PPIXB5-H0",
-				"lastVisitDate": 1735910245814,
-				"title": null,
+				"lastVisitDate": 1736172414907,
+				"title": "Karta Trenera - Jan Nowak",
 				"url": "http://127.0.0.1:5000/",
 				"type": "history",
+				"favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGNSURBVDjLpVM9SwNBEJ297J1FQBtzjQj2dgppYiP4A1KZRoiFrYWt9rHyH6QUPBDTCimtLNSAnSB26YKg4EdMdsd5611cjwsIWRhmZ3f2zZuPVcxMsyx9fPF0NRfS2vM7lx2WtcQiJHvDRvZMluXMGNHstJH7+Wj09jHkOy1+tc3VxeC+P6TXT1sYZX2hT7cvS6lepv3zHUp2T8vXNw81dXT2yGwEGeERSbSVCC5qysYa+3vm9sJGmLFojceXJ9uklCqUIAic5G3IytahAAhqqVSiwWDwx6nogW9XKhWphaGAvC50Oh1qtVr/7oAdCwBQwjB00mg0qFqtUr1ed3YURZM7X7TWTqM2Gm3CASRJEur1etTtdp1DnrafFtJGMbVNGSBas9l0DrAzR6x8DdwASUB0RqNNGS2/gH7EInvCwMhkZTnlnX0GsP09tJER0BgMoAEAa1rETDIQvBkjBZeHMIjjuNB5Ggg0/oZWPGrHGwd7Fp9F2CAlgHKqf0aYXb6Y2mzE8d/IfrXVrN/5G81p6oa2mIEUAAAAAElFTkSuQmCC",
+				"faviconLength": 507,
+				"faviconRef": "",
+				"faviconSize": 16,
+				"smallFavicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGNSURBVDjLpVM9SwNBEJ297J1FQBtzjQj2dgppYiP4A1KZRoiFrYWt9rHyH6QUPBDTCimtLNSAnSB26YKg4EdMdsd5611cjwsIWRhmZ3f2zZuPVcxMsyx9fPF0NRfS2vM7lx2WtcQiJHvDRvZMluXMGNHstJH7+Wj09jHkOy1+tc3VxeC+P6TXT1sYZX2hT7cvS6lepv3zHUp2T8vXNw81dXT2yGwEGeERSbSVCC5qysYa+3vm9sJGmLFojceXJ9uklCqUIAic5G3IytahAAhqqVSiwWDwx6nogW9XKhWphaGAvC50Oh1qtVr/7oAdCwBQwjB00mg0qFqtUr1ed3YURZM7X7TWTqM2Gm3CASRJEur1etTtdp1DnrafFtJGMbVNGSBas9l0DrAzR6x8DdwASUB0RqNNGS2/gH7EInvCwMhkZTnlnX0GsP09tJER0BgMoAEAa1rETDIQvBkjBZeHMIjjuNB5Ggg0/oZWPGrHGwd7Fp9F2CAlgHKqf0aYXb6Y2mzE8d/IfrXVrN/5G81p6oa2mIEUAAAAAElFTkSuQmCC",
+				"smallFaviconLength": 507,
+				"smallFaviconRef": "",
+				"smallFaviconSize": 16,
+				"screenshot": "moz-page-thumb://thumbnails/?url=http%3A%2F%2F127.0.0.1%3A5000%2F&revision=5170",
 				"hostname": "127.0.0.1",
-				"typedBonus": true,
-				"screenshot": "moz-page-thumb://thumbnails/?url=http%3A%2F%2F127.0.0.1%3A5000%2F&revision=7080"
+				"typedBonus": true
 			},
 			{
 				"isDefault": true,
@@ -198,109 +206,6 @@ window.__STARTUP_STATE__ = {
 		"locale": "en-GB",
 		"isForStartupCache": true,
 		"customizeMenuVisible": false,
-		"links": [
-			{
-				"isDefault": true,
-				"url": "https://www.amazon.pl/?tag=pltxtadesk-21&ref=pd_sl_e49663efc09c61a79890f30047736656d740fa0d3da9e56db4bb9f94&mfadid=adm",
-				"hostname": "amazon",
-				"sendAttributionRequest": false,
-				"label": "Amazon",
-				"show_sponsored_label": true,
-				"sponsored_position": 1,
-				"sponsored_click_url": "https://bridge.sfo1.ap01.net/ctp?version=1.0.0&encp=HF3vIpkX7RcdjpkX4Zfd1Cba1CLafZHk7ncqjnaz7nIZgGeYJm2uHF3wJnjvJnDufpLUxmIVfBIkxZdWxnzq5FcqIF_RiF_w5Cba5R4nJZlnJr7Rirxzj%3DwTIG4W7n7vI%3D3wxweNxncuxZdQ3d7nHZ7aIwvDDCE1iwwPFwjiiqdlJ%3Dv1iqI%2FCRvo4lzD2nd4sqcrCq3QfkdPFC71EcvoCRv3jdvu3Gji3l_oFE3TJl_DFnuIiw7vFFvTJDzDDBIuxr2zj%3DwTIG4W7R7kx%3DwqgG4nGZIw4%3D7q4nDafZfaHCenHn2_HZDYfCNNIn8kI%3D3qfF8aGmEQIQINHCq_4nHm1%3DHW4%3D4q1%3Dlk1FfmICla4CwOfpHm7ReOgClWftaW7RedxZ7vgClWfBIWjGfXiCkXfplnx9EWiCkXfQL_fBIkxrfXgCfX1p8d4Cxr1tIkxredHQkZfCLY4CDr4ZxnHG3ZiF2zfZlafQDd4Zx_7nckxmWzfOIdj%3Dqz4BIdImqzfOIZxR2zfC2nJG4kxczvI9Lz5ClniF_miF2z5Clnj9NvIpkW7nuriF3agCbnxR3YHZkW7R7kx%3DTzftIRjpkW7nuriF2zfZDa1pHmfQLa7RcdIG7_iF2zfCfZ4CDkfC2WfQl_4pDZ4p2W7ndZj92zftIYj%3D7TgFINJ94w7Rekj%3DwqgCbnI9eQiF2zfQbWfCfZ1CH_fOINxpfzCRvcsDdD3Cc4ElwaCc3cjldvfp44ElwaCE3EsldS3G3fDZekCEfWslXCfp4HsqkZCd3cscNPIYIQj9wvIpk_fBIQxnEvIpkXfp8a4tIWJ%3DwqgClWfpxnI94WHnwqgClWfCqnI94WHF3miF2zfCbW1BIqxreNjF3miF2z1plZftIqxrevJmwqgClk4Z8nHF3ZJ%3DwqgClZfZDd4plkfpfa4Z8YfQba4BIZJ%3DzkJREugClnIF_EDqWzClNefmIFE%3DLaEZIUxDuFC94wCwcksQxaBl7vDDEZJkHWBQNvHwldjwjuxp4H7C7%3D3ENoEF_pjD4PCwNqBF481%3DdH3cqZ193rjQDZCd74EkcIDrbrfww8iwLYjkEviFkrJrNH4lzpstDY2RLX3GeUBcvY3nWWDwIdD%3DdDBpe6BGvf7C7%3D7C7t1cjQEnldEDEPxkN14cw67C7tiqc%3DBmcOfEEHJn7HHZc2JGNcIQN1F9v4BZeo7C7t4FDksndCIkv7IGxwfk2wfk2nxR3VxZkS1Y%2FM6QTS7nwvHZkufCTufCTufCTufCTufBIQxpkW5QbafpbT4Z2Z4CxTfQ8W1pHr5pld4Q8Z1CbX5pbTfC8r1ClTfCbX4plTJnErj%3DcO5tWTj%3DwTIG4W5%3D7NHmuniFXTGm4VJn3dHmwmI2yy&ctag=pd_sl_e49663efc09c61a79890f30047736656d740fa0d3da9e56db4bb9f94",
-				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkXfZfd4C2X4pbYfCqk4Cfk4pbnj9wWIBdvIpkY7n4YIFckiGIw5FwqgClWfQLk7ReTHF4wJFEUjtdvIpkXfpbr7ncq5G4wJ%3DEQj%3DwVJOdvIpkXfZfd4C2X4pbZ1pxYfQ8W1pDnxmXVjtdUjFdOIG8zf2yy",
-				"sponsored_tile_id": 74357,
-				"partner": "amp",
-				"favicon": "https://tiles-cdn.prod.ads.prod.webservices.mozgcp.net/CAP5k4gWqcBGwir7bEEmBWveLMtvldFu-y_kyO3txFA=.9991.jpg",
-				"faviconSize": 200,
-				"typedBonus": true
-			},
-			{
-				"isDefault": true,
-				"url": "https://allegro.pl/affiliate?redirect_url=https://allegro.pl?utm_medium%3Dafiliacja%26utm_source%3Dctr_b%26utm_campaign%3D0faa3fe0-4f6c-45fb-8df0-215637e85526&admarketplaceevent=133554140219453440&mfadid=adm",
-				"hostname": "allegro",
-				"sendAttributionRequest": false,
-				"label": "allegro",
-				"show_sponsored_label": true,
-				"sponsored_position": 2,
-				"sponsored_click_url": "https://bridge.sfo1.admarketplace.net/ctp?version=1.0.0&encp=HF3vIpkY7RcdjpkX4Zfd1Cba1CLafZHk7ncqjnaz7nIZgGeYJm2uHF3wJnjvJnDufpLUxmIVfBIkxZdWxnzq5FcqIF_RiF_w5Cba5R4nJZlnJr7Rirxzj%3DwTIG4W7n7vI%3D3wxweNxncuxZd4EldPCw3EfldDDGj4iqDdCq3Esq_lDGxnJG4kgG3vJ%3DEZxtIYj9evIpdZIwAmIC3OIpIw1pfZ1%3DlWIn7q1FfdfQlaHFIO4%3D3qIpcO1czwHmHmHFl_1CIn4QNnfp3QIpNN4pwQ4nDX1pD_HQbm4OIWHQkXfpbUftIWjGfYiCkXfplnx9EZfFqzfCbX7Redx%3DqzfC8a1Clnj94ZfCkZfCLY4CDr4ZLnj94WjF8zfZlafQDd4Zxr7nckxmwqgCfX1p8d4Cxr1BINj94TgC8njG3vgCDnjFjvgC8nxr7kgClk7ndZj9eKiF3agBkX7nwUjnwqgBkX7R3aiF2zftIojmwqspkW7R7kxnfzftIYj9eogCbnIr2zftIojmwqgCfd1px_4Qfk4YIXjFEYsFwqgClZfZDd4plkfp8X1C2dfZ2kftIuxr3kgCbnxR3OJpdnHFXZIBIWj93vIpkW7n3WHmwqgC8WfplZfZqm1C8nHr3_iF2z1ClnHr7wiF2z1CLk1tIWJ%3DwqgClWfpxnI94WHnwqgClk4C2nI94WHF3miF2zfC2XfBIqxreNjF3miF2z4ZL_fBIqxrevJmwqgClZfQDnHF3ZJ%3DwqgClZfZDd4plkfpfa4Z8YfCqYfYIZJ%3DzkJREugC8nIF_EDqWzClNefmIFE%3DLaEZ2ZfR4pjmXZHQNNCElW3Ee2Ik7S2wwFspcZjmv4xlI_JkLkjcwaICwWFGbZ7C7%3DjlN2FF8riDXeBk7F7C7tFBDY2RN82DwTEnN51%3Dj7J9Eg3DTXjnIQiGEE19qZiRvVsQ8dBZEVEmA_Jw7C3dfwfq8aimHd3k7PDnEE4Fqdfq723%3D7_xQwHfFcYjFvYiDIniEIR2qEHIdxkJEcrjw7%3D2kXqsccmEFEYfkvSHCIQxRjtJ94cFFcC3DzcDw4GEDHmjD434QNEspI_2wwWBFwUBBDY3qkwfqIpid4aFpq_7C7txkz9F%3DHwfq7QiF_SBlz_3cc33qLwfq7HB%3DIPBZIY2D3%3DEmviJtDY2QcYipqwfqI63w3RHQIEfFNeHmX3D9E33ljl2ElZ3rjPsnXgIQ4%2FIkfZ1cjNEnIR7C4l7R7kJrfz6QTS1Y%2FM6OIviFfz5ClM5ClM5ClM5ClM5ClnHrbzftaX4ZbW5pxdfC8r5p8YfpxkfYWX4CHYfZHd4YWW5plY4ZqX5plWfC2X5%3D_wjr3NHOWT593vJ%3DEZxtXOHF4oInwTJczQJm_qjF4vjnDy&ctag=133554140219453440",
-				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkXfZfd4C2X4pbYfCqk4Cfk4pbnj9wWIBdvIpkY7n4YIFckiGIw5FwqgCqa4pLnx%3DXNHmEuIF%2Bk5FwqgClWfpxnHF2uxmETIF4kiFzU5FwqgClZfZDd4plkfpfa4Z8YfCqYfYIZJ%3Dzk5F%2BdJF7wxQkY",
-				"sponsored_tile_id": 75127,
-				"partner": "amp",
-				"favicon": "https://tiles-cdn.prod.ads.prod.webservices.mozgcp.net/dAvkh75Mk2wMWZADaHLBGayG740mLADZKm_4mPBuRAw=.2688.jpg",
-				"faviconSize": 200,
-				"typedBonus": true
-			},
-			{
-				"isDefault": true,
-				"url": "https://temuaffiliateprogram.pxf.io/Jz52V7?subId1=133554140219453440&mfadid=adm",
-				"hostname": "temuaffiliateprogram.pxf",
-				"sendAttributionRequest": false,
-				"label": "Temu",
-				"show_sponsored_label": true,
-				"sponsored_position": 3,
-				"sponsored_click_url": "https://bridge.sfo1.admarketplace.net/ctp?version=1.0.0&encp=HF3vIpkZ7RcdjpkX4Zfd1Cba1CLafZHk7ncqjnaz7nIZgGeYJm2uHF3wJnjvJnDufpLUxmIVfBIkxZdWxnzq5FcqIF_RiF_w5Cba5R4nJZlnJr7Rirxzj%3DwTIG4W7n7vI%3D3wxweNxncuxZd4EldPCw3EfldDDGj4iqDdCq3Esq_lDGxnJG4kgG3vJ%3DEZxtIYj9evIpdZIwAmIC3OIpIw1pfZ1%3DlWIn7q1FfdfQlaHFIO4%3D3qIpcO1czwHmHmHFl_1CIn4QNnfp3QIpNN4pwQ4nDX1pD_HQbm4OIWHQkXfpbUftIWjGfYiCkXfplnx9EZfFqzfCbX7Redx%3DqzfC8a1Clnj94ZfCkZfCLY4CDr4ZLnj94WjF8zfZlafQDd4Zxr7nckxmwqgCfX1p8d4Cxr1BINj94TgC8njG3vgCDnjFjvgC8nxr7kgClk7ndZj9eKiF3agBkX7nwUjnwqgBkX7R3aiF2zftIojmwqspkW7R7kxnfzftIYj9eogCbnIr2zftIojmwqgCfd1pLrfQfZ1tIXjFEYsFwqgClZfZDd4plkfp8X1C2dfZ2kftIuxr3kgCbnxR3OJpdnHFXZIBIWj93vIpkW7n3WHmwqgC8WfplZfZqm1C8nHr3_iF2z1ClnHr7wiF2zfCbkfCDnx%3DXvIpkXfpbr7n3Zx%3D7vIpkX4pxW7n3Zx%3DcqjnwqgClkfZlnI94WHGEqjnwqgCLY4QfnI94WiFzvIpkXfZ2Z7ncqxmXvIpkXfZfd4C2X4pbZ1pxYfQ8XfZHnxmXVj%3D_dJCkZ7nEUEE7fgDX82C4nEw3%2F1cxmFCEdHmuk7C7ti9qd4%3DdtCcxXHk343mvS3lEE2Fc_jR7pEDvvIZ4YJCe_fkdvDnIOIdDYDrEmJwjWCGj7Dqjl192wfq7r2GNFJZ7iIR3N4%3DInsE7E4lxwfq7TCww3BlvE3pjo2GNRjkE1s9441pEDJQqkFDck7C7%3D3ndTFp2nxR3VxZkS1Y%2FM6QTS7nwvHZkufCTufCTufCTufCTufBIQxpkW5Q8r4QbT4ZDX4QqTfQ8W1CxX5pld4Q8kfpqd5pbTfC8r1ClTfCbX4plTJnErj%3DcO5tWTj%3DwTIG4W5%3D7NHmuniFXTGm4VJn3dHmwmI2yy&ctag=133554140219453440",
-				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkXfZfd4C2X4pbYfCqk4Cfk4pbnj9wWIBdvIpkY7n4YIFckiGIw5FwqgClW4pld7ReTHF4wJFEUjtdvIpkXfpbr7ncq5G4wJ%3DEQj%3DwVJOdvIpkXfZfd4C2X4pbZ1pxYfQ8XfZHnxmXVjtdUjFdOIG8zfWyy",
-				"sponsored_tile_id": 75169,
-				"partner": "amp",
-				"favicon": "https://tiles-cdn.prod.ads.prod.webservices.mozgcp.net/Pe5gM9R0s-OCS2DfKecIG72P_fwfB8I2BSbC1obg0oM=.5716.jpg",
-				"faviconSize": 200,
-				"typedBonus": true
-			},
-			{
-				"bookmarkGuid": null,
-				"frecency": 2000,
-				"guid": "CW_PPIXB5-H0",
-				"lastVisitDate": 1735910245814,
-				"title": null,
-				"url": "http://127.0.0.1:5000/",
-				"type": "history",
-				"hostname": "127.0.0.1",
-				"typedBonus": true
-			},
-			{
-				"isDefault": true,
-				"url": "https://www.youtube.com/",
-				"hostname": "youtube",
-				"sendAttributionRequest": false,
-				"label": "YouTube",
-				"tippyTopIcon": "chrome://activity-stream/content/data/content/tippytop/images/youtube-com@2x.png",
-				"smallFavicon": "chrome://activity-stream/content/data/content/tippytop/favicons/youtube-com.png",
-				"typedBonus": true
-			},
-			{
-				"isDefault": true,
-				"url": "https://www.facebook.com/",
-				"hostname": "facebook",
-				"sendAttributionRequest": false,
-				"label": "Facebook",
-				"tippyTopIcon": "chrome://activity-stream/content/data/content/tippytop/images/facebook-com@2x.png",
-				"smallFavicon": "chrome://activity-stream/content/data/content/tippytop/favicons/facebook-com.ico",
-				"typedBonus": true
-			},
-			{
-				"isDefault": true,
-				"url": "https://www.wikipedia.org/",
-				"hostname": "wikipedia",
-				"sendAttributionRequest": false,
-				"label": "Wikipedia",
-				"tippyTopIcon": "chrome://activity-stream/content/data/content/tippytop/images/wikipedia-org@2x.png",
-				"smallFavicon": "chrome://activity-stream/content/data/content/tippytop/favicons/wikipedia-org.ico",
-				"typedBonus": true
-			},
-			{
-				"isDefault": true,
-				"url": "https://www.olx.pl/",
-				"hostname": "olx",
-				"sendAttributionRequest": false,
-				"tippyTopIcon": "chrome://activity-stream/content/data/content/tippytop/images/olx-pl@2x.png",
-				"smallFavicon": "chrome://activity-stream/content/data/content/tippytop/favicons/olx-pl.ico",
-				"typedBonus": true
-			}
-		],
-		"pref": {
-			"collapsed": false
-		},
 		"lastUpdated": 1735910175715,
 		"spocs": {
 			"settings": {
@@ -382,6 +287,118 @@ window.__STARTUP_STATE__ = {
 				"context": "",
 				"items": []
 			}
+		},
+		"links": [
+			{
+				"isDefault": true,
+				"url": "https://www.amazon.pl/?tag=pltxtadesk-21&ref=pd_sl_e49663efc09c61a79890f30047736656d740fa0d3da9e56db4bb9f94&mfadid=adm",
+				"hostname": "amazon",
+				"sendAttributionRequest": false,
+				"label": "Amazon",
+				"show_sponsored_label": true,
+				"sponsored_position": 1,
+				"sponsored_click_url": "https://bridge.sfo1.ap01.net/ctp?version=1.0.0&encp=HF3vIpkX7RcdjpkX4ZfmfCH_fpqW4Cfk7ncqjnaz7nIZgGeYJm2uHF3wJnjvJnDufp2UxmIVfBIkxZdWxnzq5FcqIF_RiF_w5Cbk5R4nJZlnJr7Rirxzj%3DwTIG4W7n7vI%3D3wxweNxncuxZdQ3d7nHZ7aIwvDDCE1iwwPFwjiiqdlJ%3Dv1iqI%2FCRvo4lzD2nd4sqcrCq3QfkdPFC71EcvoCRv3jdvu3Gji3l_oFE3TJl_DFnuIiw7vFFvTJDzDDBIuxr2zj%3DwTIG4W7R7kx%3DwqgG4nGmcnHZEQ1pcnHn8dfQlkfZfr1FlkfC8Z4pNw1p8kHQcqGm2mfQ2k4QHa4QqXfZfd1pIQIFfr4ZxkHn8kHQIQ4QDr7ReOgClWftaW7RedxZ7vgClWfBIWjGfXiCkXfplnx9EWiCkXfQL_fBIkxrfXgCfX1p8d4Cxr1tIkxredHQkZfCLY4CDr4ZxnHG3ZiF2zfZlafQDd4Zx_7nckxmWzfOIdj%3Dqz4Zxr4ZHnjFjvgC8nxr7kgClk7ndZj9eKiF3agBkX7nwUjnwqgBkX7R3aiF2zftIojmwqspkW7R7kxnfzftIYj9eogCbnIr2zftIojmwqgCfd1pLm4Q8a1tIXjFEYsFwqgClZ4pHk4Cba4ZLW4pbrfCqZ4OIuxr3kgCbnxR3OJpdnHFXZIBIWj93vIpkW7n3WHmwqgC8WfplZfZqm1C8nHGbZgD_P3Gw4ElDXCE37slXD3G34iCbZCE37sldDEGN4iqEkCcfWjldCf9NfDZbZF9v4fkzD3GNHsnxnHr3_iF2z1ClnHr7wiF2zfCbY1p2nx%3DXvIpkXfpbr7n3Zx%3D7vIpkXfpl_7n3Zx%3DcqjnwqgClWfpqnI94WHGEqjnwqgCLXfZbnI94WiFzvIpkX4pxY7ncqxmXvIpkXfZ2m4pDW1pLkfC8YfZLkfp8nxmXVj%3D_dJCkX7nEUEE7fgDX82C4nEw3%2F1cxmJRc5EqXZID_3j9%2Fr1lNtiEccxmz%3Dfl%2FaiF734GIGJGbZFtDY3qEHidEU2rEpsq_HIlwQBpNuFl3IfZNkjrHdfkzBCEjeFE4W4Z7IB%3DvHfRjciFwu4mzaFp3g2rLwfq7afDEWJqNixqITfc7FjEeuElLWBqwPCtDY3ODY2QNGHdIN4EEcsR48CQ3IBODY2nve3quNHQcEF%3D_OF%3DfXD%3Dda3FHaCwNPCDTWiYDY2QEw49vuDmj6BFEr7C4l7C4l7R7kJrfz6QTS1Y%2FM6OIviFfz5ClM5ClM5ClM5ClM5ClnHrbzftaW1pbW5pxkfZDr5p8YfpLm4YWX4CHYfZqWfBWW5plY4ZqX5plWfC2X5%3D_wjr3NHOWT593vJ%3DEZxtXOHF4oInwTJczQJm_qjF4vjnDy&ctag=pd_sl_e49663efc09c61a79890f30047736656d740fa0d3da9e56db4bb9f94",
+				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkXfZ2m4pDW1pxafp2W4Zl%2BfZHnj9wWIBdvIpkY7n4YIFckiGIw5FwqgClWfQLk7ReTHF4wJFEUjtdvIpkXfpbr7ncq5G4wJ%3DEQj%3DwVJOdvIpkXfZ2m4pDW1pLkfC8YfZLkfp8nxmXVjtdUjFdOIG8zf2yy",
+				"sponsored_tile_id": 74357,
+				"partner": "amp",
+				"favicon": "https://tiles-cdn.prod.ads.prod.webservices.mozgcp.net/CAP5k4gWqcBGwir7bEEmBWveLMtvldFu-y_kyO3txFA=.9991.jpg",
+				"faviconSize": 200,
+				"typedBonus": true
+			},
+			{
+				"isDefault": true,
+				"url": "https://allegro.pl/affiliate?redirect_url=https://allegro.pl?utm_medium%3Dafiliacja%26utm_source%3Dctr_b%26utm_campaign%3D0faa3fe0-4f6c-45fb-8df0-215637e85526&admarketplaceevent=134645087804071936&mfadid=adm",
+				"hostname": "allegro",
+				"sendAttributionRequest": false,
+				"label": "allegro",
+				"show_sponsored_label": true,
+				"sponsored_position": 2,
+				"sponsored_click_url": "https://bridge.sfo1.admarketplace.net/ctp?version=1.0.0&encp=HF3vIpkY7RcdjpkX4ZfmfCH_fpqW4Cfk7ncqjnaz7nIZgGeYJm2uHF3wJnjvJnDufp2UxmIVfBIkxZdWxnzq5FcqIF_RiF_w5Cbk5R4nJZlnJr7Rirxzj%3DwTIG4W7n7vI%3D3wxweNxncuxZd4ElkWCnv3fDdlIZ4g3llWCD3QslzDCC8nJG4kgG3vJ%3DEZxtIYj9evIpdZIwzNInfdHZLXIn7O4C8X4pfZ4ZwN4plYfZ2aICLY4%3D8XIczq4Q8k4pHm1pH_fCfZ4CLmHmEQ4Zxr4%3D7O4%3D8mHZHd4YIWHQkXfpbUftIWjGfYiCkXfplnx9EZfFqzfCbX7Redx%3DqzfC8a1Clnj94ZfCkZfCLY4CDr4ZLnj94WjF8zfZlafQDd4Zxr7nckxmwqgCfX1p8d4Cxr1BINj94TgC8njG3vgCxr4Zxm7RERiCkY7R4YjpkX4tIuxr3WGmwqspkufBIvJRIvIpkufBIks%3DwqgCbnirjvI9LzftIYj97QgCbnxR3WiZkW7njkgCbnirjvIpkZ4CLr1CHZ4pxnxGEwxRwvIpkXfZ2m4pDW1pxafp2W4Zl_fZHnJG4kjpkW7R7kHnWzIncTxmDnx93kiF2zftIqx%3D4vIpkYfpbXfZf_4QqY7n4ksFwqgCqX7n4YIFwqgCqa4pLnx%3DXvIpkXfpbr7n3Zx%3D7vIpkX4pDk7n3Zx%3DcqjnwqgClkfClnI94WHGEqjnwqgCxa1ClnI94WiFzvIpkXfZ8d7ncqxmXvIpkXfZ2m4pDW1pLkfC8YfZLY4p2nxmXVj%3D_dJCkY7nEUEE7fgDX82C4nEw3%2F1cxkfZ7Z2rjTxm8aHDd3flE2D%3Djtiq7IERLXxrjSCGe%3DsFz8493Is%3DD_xcwWfYDY3R38DcwO4mwf2DutEODY2wqwfq7aBlc7JcI%2FBZNRBFXdCkE5fGInHmwdECN_fmvPJr%2FY4DTdJdjV1F_BDkjC7C7t1%3Dun4Djtsw7wECEv4C7tDl3OsG8_FpcNxRESxnw%3DInwFIk7cF%3DjG4%3Dd3jrIB3q4fI9N3jwEwxQ46inlmHr7r2nXZ3EwNDkEg3E7CEdE%3D4REpDCHaEGLmsD7IxlwvJqqwfqI47C7%3D2muCscL_1BDY2R4g3dNn7C7tHmwUiqNgsD3BIFXZfC4FBkqwfq7V7C7%3DCqE%2FxG7HFGNDjmfd3Z7QER3DIkwqilcQJcc2jEcl3k3eDC49jrvPJlznfmNR2ZfaEmcFInxwfk2nxR3VxZkS1Y%2FM6QTS7nwvHZkufCTufCTufCTufCTufBIQxpkW5Q8kfpbT4ZDXfQxTfQ8W4Z2Z5pld4Q8Z4QDr5pbTfC8r1ClTfCbX4plTJnErj%3DcO5tWTj%3DwTIG4W5%3D7NHmuniFXTGm4VJn3dHmwmI2yy&ctag=134645087804071936",
+				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkXfZ2m4pDW1pxafp2W4Zl%2BfZHnj9wWIBdvIpkY7n4YIFckiGIw5FwqgCqa4pLnx%3DXNHmEuIF%2Bk5FwqgClWfpxnHF2uxmETIF4kiFzU5FwqgClZ4pHk4Cba1p2XfQ8Z1p8k4tIZJ%3Dzk5F%2BdJF7wxQkY",
+				"sponsored_tile_id": 75127,
+				"partner": "amp",
+				"favicon": "https://tiles-cdn.prod.ads.prod.webservices.mozgcp.net/dAvkh75Mk2wMWZADaHLBGayG740mLADZKm_4mPBuRAw=.2688.jpg",
+				"faviconSize": 200,
+				"typedBonus": true
+			},
+			{
+				"isDefault": true,
+				"url": "https://temuaffiliateprogram.pxf.io/Jz52V7?subId1=134645087804071936&mfadid=adm",
+				"hostname": "temuaffiliateprogram.pxf",
+				"sendAttributionRequest": false,
+				"label": "Temu",
+				"show_sponsored_label": true,
+				"sponsored_position": 3,
+				"sponsored_click_url": "https://bridge.sfo1.admarketplace.net/ctp?version=1.0.0&encp=HF3vIpkZ7RcdjpkX4ZfmfCH_fpqW4Cfk7ncqjnaz7nIZgGeYJm2uHF3wJnjvJnDufp2UxmIVfBIkxZdWxnzq5FcqIF_RiF_w5Cbk5R4nJZlnJr7Rirxzj%3DwTIG4W7n7vI%3D3wxweNxncuxZd4ElkWCnv3fDdlIZ4g3llWCD3QslzDCC8nJG4kgG3vJ%3DEZxtIYj9evIpdZIwzNInfdHZLXIn7O4C8X4pfZ4ZwN4plYfZ2aICLY4%3D8XIczq4Q8k4pHm1pH_fCfZ4CLmHmEQ4Zxr4%3D7O4%3D8mHZHd4YIWHQkXfpbUftIWjGfYiCkXfplnx9EZfFqzfCbX7Redx%3DqzfC8a1Clnj94ZfCkZfCLY4CDr4ZLnj94WjF8zfZlafQDd4Zxr7nckxmwqgCfX1p8d4Cxr1BINj94TgC8njG3vgCxr4Zxm7RERiCkY7R4YjpkX4tIuxr3WGmwqspkufBIvJRIvIpkufBIks%3DwqgCbnirjvI9LzftIYj97QgCbnxR3WiZkW7njkgCbnirjvIpkZ4CLa4Z8ZfZLnxGEwxRwvIpkXfZ2m4pDW1pxafp2W4Zl_fZHnJG4kjpkW7R7kHnWzIncTxmDnx93kiF2zftIqx%3D4vIpkYfpbXfZf_4QqY7n4ksFwqgCqX7n4YIFwqgClW4pld7ReTiF2zfCbW4YIqxreOiF2zfC2rftIqxreNI9IvIpkX4pfX7n3Zx%3DcdI9IvIpkafQHZ7n3Zx%3DwViF2zfCfkfYINI94TiF2zfCfk4Q2dfpLa4plYfQfa4pDZ7R4TJr3UjFkzfYIwJwEBCpdfBllZIwIDipNG4wqdjF4ojtDY2nN_4C3u2qXGfF4lCDjSiq3cEDcNsGIY2dE6iFxZxnkWsC44iE7nHnjEfw4djn_gfkjQI%3DkX2G4vC9vBBFcXfC74ECN8Cd7kJqIOEC3pBcw3BlvE3pjo2GNRjkE1s9441pEDJQqkFDck7C7%3D3ndTFp2nxR3VxZkS1Y%2FM6QTS7nwvHZkufCTufCTufCTufCTufBIQxpkW5QlYfQbT4ZDX4QqTfQ8W1CxX5pld4Q8kfpqd5pbTfC8r1ClTfCbX4plTJnErj%3DcO5tWTj%3DwTIG4W5%3D7NHmuniFXTGm4VJn3dHmwmI2yy&ctag=134645087804071936",
+				"sponsored_impression_url": "https://imp.mt48.net/static?id=7RHzfOIXjFEYsBdvIpkXfZ2m4pDW1pxafp2W4Zl%2BfZHnj9wWIBdvIpkY7n4YIFckiGIw5FwqgClW4pld7ReTHF4wJFEUjtdvIpkXfpbr7ncq5G4wJ%3DEQj%3DwVJOdvIpkXfZ2m4pDW1pLkfC8YfZLk4CfnxmXVjtdUjFdOIG8zfWyy",
+				"sponsored_tile_id": 75169,
+				"partner": "amp",
+				"favicon": "https://tiles-cdn.prod.ads.prod.webservices.mozgcp.net/Pe5gM9R0s-OCS2DfKecIG72P_fwfB8I2BSbC1obg0oM=.5716.jpg",
+				"faviconSize": 200,
+				"typedBonus": true
+			},
+			{
+				"bookmarkGuid": null,
+				"frecency": 5280,
+				"guid": "CW_PPIXB5-H0",
+				"lastVisitDate": 1736172414907,
+				"title": "Karta Trenera - Jan Nowak",
+				"url": "http://127.0.0.1:5000/",
+				"type": "history",
+				"favicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGNSURBVDjLpVM9SwNBEJ297J1FQBtzjQj2dgppYiP4A1KZRoiFrYWt9rHyH6QUPBDTCimtLNSAnSB26YKg4EdMdsd5611cjwsIWRhmZ3f2zZuPVcxMsyx9fPF0NRfS2vM7lx2WtcQiJHvDRvZMluXMGNHstJH7+Wj09jHkOy1+tc3VxeC+P6TXT1sYZX2hT7cvS6lepv3zHUp2T8vXNw81dXT2yGwEGeERSbSVCC5qysYa+3vm9sJGmLFojceXJ9uklCqUIAic5G3IytahAAhqqVSiwWDwx6nogW9XKhWphaGAvC50Oh1qtVr/7oAdCwBQwjB00mg0qFqtUr1ed3YURZM7X7TWTqM2Gm3CASRJEur1etTtdp1DnrafFtJGMbVNGSBas9l0DrAzR6x8DdwASUB0RqNNGS2/gH7EInvCwMhkZTnlnX0GsP09tJER0BgMoAEAa1rETDIQvBkjBZeHMIjjuNB5Ggg0/oZWPGrHGwd7Fp9F2CAlgHKqf0aYXb6Y2mzE8d/IfrXVrN/5G81p6oa2mIEUAAAAAElFTkSuQmCC",
+				"faviconLength": 507,
+				"faviconRef": "",
+				"faviconSize": 16,
+				"smallFavicon": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAGNSURBVDjLpVM9SwNBEJ297J1FQBtzjQj2dgppYiP4A1KZRoiFrYWt9rHyH6QUPBDTCimtLNSAnSB26YKg4EdMdsd5611cjwsIWRhmZ3f2zZuPVcxMsyx9fPF0NRfS2vM7lx2WtcQiJHvDRvZMluXMGNHstJH7+Wj09jHkOy1+tc3VxeC+P6TXT1sYZX2hT7cvS6lepv3zHUp2T8vXNw81dXT2yGwEGeERSbSVCC5qysYa+3vm9sJGmLFojceXJ9uklCqUIAic5G3IytahAAhqqVSiwWDwx6nogW9XKhWphaGAvC50Oh1qtVr/7oAdCwBQwjB00mg0qFqtUr1ed3YURZM7X7TWTqM2Gm3CASRJEur1etTtdp1DnrafFtJGMbVNGSBas9l0DrAzR6x8DdwASUB0RqNNGS2/gH7EInvCwMhkZTnlnX0GsP09tJER0BgMoAEAa1rETDIQvBkjBZeHMIjjuNB5Ggg0/oZWPGrHGwd7Fp9F2CAlgHKqf0aYXb6Y2mzE8d/IfrXVrN/5G81p6oa2mIEUAAAAAElFTkSuQmCC",
+				"smallFaviconLength": 507,
+				"smallFaviconRef": "",
+				"smallFaviconSize": 16,
+				"screenshot": "moz-page-thumb://thumbnails/?url=http%3A%2F%2F127.0.0.1%3A5000%2F&revision=5170",
+				"hostname": "127.0.0.1",
+				"typedBonus": true
+			},
+			{
+				"isDefault": true,
+				"url": "https://www.youtube.com/",
+				"hostname": "youtube",
+				"sendAttributionRequest": false,
+				"label": "YouTube",
+				"tippyTopIcon": "chrome://activity-stream/content/data/content/tippytop/images/youtube-com@2x.png",
+				"smallFavicon": "chrome://activity-stream/content/data/content/tippytop/favicons/youtube-com.png",
+				"typedBonus": true
+			},
+			{
+				"isDefault": true,
+				"url": "https://www.facebook.com/",
+				"hostname": "facebook",
+				"sendAttributionRequest": false,
+				"label": "Facebook",
+				"tippyTopIcon": "chrome://activity-stream/content/data/content/tippytop/images/facebook-com@2x.png",
+				"smallFavicon": "chrome://activity-stream/content/data/content/tippytop/favicons/facebook-com.ico",
+				"typedBonus": true
+			},
+			{
+				"isDefault": true,
+				"url": "https://www.wikipedia.org/",
+				"hostname": "wikipedia",
+				"sendAttributionRequest": false,
+				"label": "Wikipedia",
+				"tippyTopIcon": "chrome://activity-stream/content/data/content/tippytop/images/wikipedia-org@2x.png",
+				"smallFavicon": "chrome://activity-stream/content/data/content/tippytop/favicons/wikipedia-org.ico",
+				"typedBonus": true
+			},
+			{
+				"isDefault": true,
+				"url": "https://www.olx.pl/",
+				"hostname": "olx",
+				"sendAttributionRequest": false,
+				"tippyTopIcon": "chrome://activity-stream/content/data/content/tippytop/images/olx-pl@2x.png",
+				"smallFavicon": "chrome://activity-stream/content/data/content/tippytop/favicons/olx-pl.ico",
+				"typedBonus": true
+			}
+		],
+		"pref": {
+			"collapsed": false
 		}
 	},
 	"Prefs": {
@@ -1657,4 +1674,4 @@ window.__STARTUP_STATE__ = {
 	}
 };
 
-w±|è           gwäŒG¸ÿÿÿÿ       :about:home alt-data 1;11325,script version 20240829143845   Í
+fÁpÌô           g{äâGºÈÿÿÿÿ       :about:home alt-data 1;12059,script version 20240829143845  0Þ

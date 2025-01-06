@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karta Trenera - {{ trainer.name }}</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            background-color: #f9f9f9;
+        }
+        .trainer-info {
+            margin-bottom: 20px;
+        }
+        .trainer-info h1 {
+            font-size: 24px;
+            margin: 0;
+        }
+        .trainer-info p {
+            font-size: 16px;
+        }
+        .contact-info {
+            margin-top: 30px;
+        }
+        .contact-info h2 {
+            font-size: 20px;
+        }
+        .services ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        .services li {
+            margin: 5px 0;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="trainer-info">
+        <h1>{{ trainer.name }}</h1>
+        <p><strong>Title:</strong> {{ trainer.title }}</p>
+        <p><strong>Description:</strong> {{ trainer.description }}</p>
+        <p><strong>Education:</strong> {{ trainer.education }}</p>
+        <p><strong>Passions:</strong> {{ trainer.passions }}</p>
+    </div>
+
+    <div class="contact-info">
+        <h2>Kontakt</h2>
+        <p><strong>Telefon:</strong> {{ trainer.phone }}</p>
+        <p><strong>Email:</strong> <a href="mailto:{{ trainer.email }}">{{ trainer.email }}</a></p>
+        <p><strong>Adres:</strong> {{ trainer.address }}</p>
+    </div>
+
+    <div class="services">
+        <h2>Usługi</h2>
+        <h3>Korzyści:</h3>
+        <ul>
+            {% for benefit in trainer.krakow_services.benefits %}
+                <li>{{ benefit }}</li>
+            {% endfor %}
+        </ul>
+
+        <h3>Pomoc w:</h3>
+        <ul>
+            {% for help_item in trainer.krakow_services.help %}
+                <li>{{ help_item }}</li>
+            {% endfor %}
+        </ul>
+    </div>
+</div>
+
+</body>
+</html>

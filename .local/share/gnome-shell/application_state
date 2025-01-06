@@ -1,7 +1,8 @@
 <?xml version="1.0"?>
 <application-state>
   <context id="">
-    <application id="firefox_firefox.desktop" score="0" last-seen="1735910173"/>
-    <application id="org.gnome.Terminal.desktop" score="2874" last-seen="1735910164"/>
+    <application id="firefox_firefox.desktop" score="1323" last-seen="1736172039"/>
+    <application id="org.gnome.Nautilus.desktop" score="0" last-seen="1735917458"/>
+    <application id="org.gnome.Terminal.desktop" score="3060" last-seen="1735920285"/>
   </context>
 </application-state>
