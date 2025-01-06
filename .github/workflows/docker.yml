@@ -39,7 +39,7 @@ jobs:
 
     - name: Push Docker image to Docker Hub
       run: |
-        docker push ppaulinkaap@gmail.com/flask-webapp:latest 
+        docker push sobieski987/flask-webapp:latest 
 
     - name: Run basic tests
       run: |
